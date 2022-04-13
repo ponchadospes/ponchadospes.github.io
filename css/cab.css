@@ -1,0 +1,21 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+  }
+  
+  /* Editando la cabecera */
+  .CaImagen {
+    background-color: lightgray;
+    border-radius: 10px;
+    
+  }
+  .cabecera {
+    width:100%;
+    height: 100%;
+    overflow:hidden; /*Anulamos la scroll bar*/
+  }
+  .CaImagen::-webkit-scrollbar-thumb{
+     
+  }

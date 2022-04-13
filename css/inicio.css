@@ -1,0 +1,34 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  left: 0px;
+}
+body {
+  background-color: rgb(227, 231, 193);
+}
+/* Editando la cabecera */
+.cabecera {
+  top:0;
+  height: 220px;
+  width: 1360px;
+  background-color: lightgray;
+}
+.CaImagen {
+  width:100%;
+  height: 100%;
+}
+/*----------------------*/
+/* Editando el marco de la imagen*/
+.div-body {
+  padding-left: 0 ; /*Ponemos el contenedor del cuerpo al borde izquierdo*/
+}
+.cuerpo {
+  height: 380px;
+  width: 1300px;
+  background-color: lightgray 
+}
+li {
+  padding-left: 0px;
+}
+/*----------------------*/

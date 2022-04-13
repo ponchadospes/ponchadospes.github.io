@@ -1,0 +1,40 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  left: 0px;
+}
+  
+  /* Editando la cabecera */
+
+.li{
+  width:300px;
+  height: 300px;
+  display: grid;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  justify-content: center;
+  border-style: outset;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.img-body{
+  width: 95%;
+  height: 95%;
+}
+.boton {
+  width:70%;
+  height: 100%;
+  background-color: rgb(27, 192, 27);
+}
+.ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+/*Estado hover*/
+li:hover{
+  border-style:inset;
+}
+.boton:hover{
+  color:yellow;
+}
